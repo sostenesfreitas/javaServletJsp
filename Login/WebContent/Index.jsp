@@ -8,6 +8,7 @@
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
+	<!-- verificando se tem alguem usuario logado se não houver ele redireciona para a pagina de login -->
 	<% Cliente cliente = (Cliente) session.getAttribute("cliente");
 	   if(cliente == null){
 		   response.sendRedirect("Login.jsp");
