@@ -1,0 +1,152 @@
+body {
+	background-image:url("http://hdimagesnew.com/wp-content/uploads/2015/11/Tumblr-Backgrounds-7.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Pacifico', cursive;    
+}
+.nav  {
+	float: left;
+    margin: 0px;
+    height: 500px;
+    width: 100px; 
+    list-style-type:none;
+    
+}
+.texto {
+	text-align: center;
+    color:white;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    font-family: 'Pacifico', cursive; 
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 300px;
+}
+li{
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    color: white;
+   
+}
+#link:hover {
+    display: block; 
+    background-color: black;
+    border-radius: 20px;
+}
+#erro:hover {
+    display: block; 
+    background-color:aquamarine;
+    border-radius: 20px;
+}
+ul{
+    padding: 0px;
+}
+div ul li{
+    padding: 20px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+.login{
+    
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    color:white;
+    margin-top: 200px;
+    
+}
+button {
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor:pointer;
+    border:none;
+    
+}
+button:hover{
+    background-color: gray
+}
+input{
+    width:250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display:inline-block;
+    padding-left: 10px;
+    border:none;
+
+}
+.cadastro{
+    width: 500px;
+    height: :900px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    color:white;
+    display: block;
+  
+}
+label {
+    display: inline-block;
+}
+.erro {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+p {
+    font-size: 20px;
+    color: black;
+}
+.erroimg {
+    background-image: url("http://www.sementesdoportal.com.br/sementes/images/erro404.png");
+    float: right;
+    height: 359px;
+    width: 700px;
+    margin: auto;
+    margin-top: 110px;
+}
+#block {
+    background-image: none;
+}
+#confirma {
+	text-align: center;
+    color:white;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    background-image: url("http://i.imgur.com/eWtfMME.png");
+   
+}
+#cadastro{
+    font-size: 50px;
+    color: white;
+}
+#loga:hover{
+	cursor:pointer;
+}
